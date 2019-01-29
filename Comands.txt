@@ -1,0 +1,7 @@
+Enroll:
+	speaker-recognition.py -t enroll -i "C:\Users\dbulk\Desktop\PythonWorkspace\nagrania\*" -m model.out
+
+			/*Nagrania wgrywane z innego pliku tych samych osob*/
+Predict:
+	speaker-recognition.py -t predict  -i "C:\Users\dbulk\Desktop\PythonWorkspace\usuniete\w1.wav" -m model.out
+
